@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+        <mutableArray key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="370" id="KGk-i7-Jjw" customClass="mapCellTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="370"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="T91-ac-Vf5">
+                        <rect key="frame" x="35" y="41" width="250" height="250"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="250" id="jAJ-9e-kDF"/>
+                            <constraint firstAttribute="height" constant="250" id="pcY-lM-6fd"/>
+                        </constraints>
+                    </mapView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="venueName" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scS-tp-0hK">
+                        <rect key="frame" x="110" y="8" width="100" height="28"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" misplaced="YES" text="venueAddress" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qre-Ht-sYd">
+                        <rect key="frame" x="8" y="299" width="302" height="24"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" misplaced="YES" text="phoneNumber" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sH7-ZA-ltE">
+                        <rect key="frame" x="101" y="331" width="118" height="24"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="T91-ac-Vf5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="27" id="4VK-hp-bKn"/>
+                    <constraint firstItem="qre-Ht-sYd" firstAttribute="top" secondItem="T91-ac-Vf5" secondAttribute="bottom" constant="8" id="773-cN-M87"/>
+                    <constraint firstItem="T91-ac-Vf5" firstAttribute="leading" secondItem="scS-tp-0hK" secondAttribute="trailing" constant="-202" id="Ed7-33-j3L"/>
+                    <constraint firstItem="T91-ac-Vf5" firstAttribute="top" secondItem="scS-tp-0hK" secondAttribute="bottom" constant="5" id="HKG-tS-Fqz"/>
+                    <constraint firstAttribute="centerX" secondItem="sH7-ZA-ltE" secondAttribute="centerX" id="I8J-PW-deB"/>
+                    <constraint firstAttribute="centerX" secondItem="T91-ac-Vf5" secondAttribute="centerX" id="Im8-zj-g8J"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="sH7-ZA-ltE" secondAttribute="bottom" constant="6" id="SL6-AL-fUt"/>
+                    <constraint firstItem="T91-ac-Vf5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="U4t-OD-UpI"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qre-Ht-sYd" secondAttribute="trailing" constant="2" id="ZGm-5P-m0J"/>
+                    <constraint firstItem="qre-Ht-sYd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="bB6-bB-cS3"/>
+                    <constraint firstItem="sH7-ZA-ltE" firstAttribute="top" secondItem="qre-Ht-sYd" secondAttribute="bottom" constant="8" id="gC9-D7-kWg"/>
+                    <constraint firstItem="scS-tp-0hK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="hol-1t-LyE"/>
+                    <constraint firstAttribute="centerX" secondItem="T91-ac-Vf5" secondAttribute="centerX" id="krh-O7-dz7"/>
+                    <constraint firstAttribute="centerY" secondItem="T91-ac-Vf5" secondAttribute="centerY" id="qz0-Fc-FU6"/>
+                    <constraint firstItem="sH7-ZA-ltE" firstAttribute="top" secondItem="qre-Ht-sYd" secondAttribute="bottom" constant="8" id="w3F-xX-puX"/>
+                    <constraint firstAttribute="centerX" secondItem="scS-tp-0hK" secondAttribute="centerX" id="xaX-7c-59T"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="Ed7-33-j3L"/>
+                        <exclude reference="Im8-zj-g8J"/>
+                        <exclude reference="U4t-OD-UpI"/>
+                        <exclude reference="qz0-Fc-FU6"/>
+                        <exclude reference="gC9-D7-kWg"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="mapOfVenue" destination="T91-ac-Vf5" id="aq8-2z-uAF"/>
+                <outlet property="phoneNumberOfVenue" destination="sH7-ZA-ltE" id="BTu-Uh-ieR"/>
+                <outlet property="venueAddress" destination="qre-Ht-sYd" id="Smx-cv-v4v"/>
+                <outlet property="venueName" destination="scS-tp-0hK" id="w1t-kR-7lY"/>
+            </connections>
+            <point key="canvasLocation" x="349" y="861"/>
+        </tableViewCell>
+    </objects>
+</document>

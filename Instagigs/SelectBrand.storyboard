@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Select BrandsTVC-->
+        <scene sceneID="kd4-8d-twm">
+            <objects>
+                <tableViewController storyboardIdentifier="@SelectBrand" id="zBC-XS-p8y" customClass="SelectBrandsTVC" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" id="ypg-nD-pYf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="jGa-Vr-umx">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="zBC-XS-p8y" id="quU-P0-rjN"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="brandCell" rowHeight="60" id="cHd-Zn-mpi" customClass="BrandsTableViewCell">
+                                <rect key="frame" x="0.0" y="66" width="600" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cHd-Zn-mpi" id="k0R-Yr-txb">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="59.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AoS-Tr-2og">
+                                            <rect key="frame" x="19" y="7" width="45" height="45"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="45" id="mY5-lG-ctF"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFE-WO-OWO">
+                                            <rect key="frame" x="82" y="19" width="430" height="21"/>
+                                            <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="UFE-WO-OWO" firstAttribute="centerY" secondItem="k0R-Yr-txb" secondAttribute="centerY" id="Ay5-BU-xLr"/>
+                                        <constraint firstItem="UFE-WO-OWO" firstAttribute="top" secondItem="k0R-Yr-txb" secondAttribute="topMargin" constant="11" id="BSJ-QC-g5l"/>
+                                        <constraint firstItem="AoS-Tr-2og" firstAttribute="top" secondItem="k0R-Yr-txb" secondAttribute="topMargin" constant="-1" id="IwR-cL-za8"/>
+                                        <constraint firstItem="AoS-Tr-2og" firstAttribute="centerY" secondItem="UFE-WO-OWO" secondAttribute="centerY" id="KYU-5G-URL"/>
+                                        <constraint firstItem="AoS-Tr-2og" firstAttribute="leading" secondItem="k0R-Yr-txb" secondAttribute="leadingMargin" constant="11" id="Mz7-TH-Yav"/>
+                                        <constraint firstItem="UFE-WO-OWO" firstAttribute="leading" secondItem="AoS-Tr-2og" secondAttribute="trailing" constant="18" id="ToC-TP-nY0"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="UFE-WO-OWO" secondAttribute="trailing" constant="80" id="gVC-yq-IB7"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="brandImage" destination="AoS-Tr-2og" id="Hmo-js-0zE"/>
+                                    <outlet property="brandName" destination="UFE-WO-OWO" id="gqV-2r-ITl"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="zBC-XS-p8y" id="hOv-g5-joX"/>
+                            <outlet property="delegate" destination="zBC-XS-p8y" id="deD-O8-5yQ"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="Ni1-3L-p0o" id="iid-dD-sXV"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PCr-c0-qXP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="Ni1-3L-p0o">
+                    <connections>
+                        <outlet property="delegate" destination="zBC-XS-p8y" id="IX6-qP-mqt"/>
+                        <outlet property="searchBar" destination="jGa-Vr-umx" id="UWJ-AF-bKh"/>
+                        <outlet property="searchContentsController" destination="zBC-XS-p8y" id="znZ-z0-QTH"/>
+                        <outlet property="searchResultsDataSource" destination="zBC-XS-p8y" id="iML-Xf-Nmn"/>
+                        <outlet property="searchResultsDelegate" destination="zBC-XS-p8y" id="CLY-pN-CqK"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="426" y="354"/>
+        </scene>
+    </scenes>
+</document>

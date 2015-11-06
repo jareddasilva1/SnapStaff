@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </mutableArray>
+        <mutableArray key="OpenSans-Light.ttf">
+            <string>OpenSans-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="97" id="KGk-i7-Jjw" customClass="placeCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="96.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Toi-hl-Vf2">
+                        <rect key="frame" x="8" y="8" width="304" height="24"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pQ6-QV-sv4">
+                        <rect key="frame" x="8" y="43" width="304" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" priority="250" constant="48" id="rIr-uQ-Jhg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Light" family="Open Sans" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Toi-hl-Vf2" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="GRJ-dL-4yC"/>
+                    <constraint firstItem="pQ6-QV-sv4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Im2-oM-BTt"/>
+                    <constraint firstItem="pQ6-QV-sv4" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="MeZ-VL-MW5"/>
+                    <constraint firstItem="Toi-hl-Vf2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="SRY-fp-iSN"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="pQ6-QV-sv4" secondAttribute="bottom" constant="5" id="aT2-eQ-Agg"/>
+                    <constraint firstItem="pQ6-QV-sv4" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="aTU-QB-Loy"/>
+                    <constraint firstItem="Toi-hl-Vf2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="krI-jL-uOa"/>
+                    <constraint firstItem="pQ6-QV-sv4" firstAttribute="top" secondItem="Toi-hl-Vf2" secondAttribute="bottom" constant="11" id="lvJ-7r-dow"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="aT2-eQ-Agg"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="venueAddress" destination="pQ6-QV-sv4" id="RGX-Mx-pfr"/>
+                <outlet property="venueName" destination="Toi-hl-Vf2" id="Dul-X7-ono"/>
+            </connections>
+            <point key="canvasLocation" x="430" y="733.5"/>
+        </tableViewCell>
+    </objects>
+</document>

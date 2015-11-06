@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>53FC0F95-62C2-4903-81E0-C2DC81CE3655</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Instagigs</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1A553453A9C6E352F871D12657BDAE0F0881F1C3</key>
+		<string>https://github.com/ElevateGC/Instagigs.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Instagigs.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1A553453A9C6E352F871D12657BDAE0F0881F1C3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ElevateGC/Instagigs.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1A553453A9C6E352F871D12657BDAE0F0881F1C3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1A553453A9C6E352F871D12657BDAE0F0881F1C3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Instagigs</string>
+		</dict>
+	</array>
+</dict>
+</plist>

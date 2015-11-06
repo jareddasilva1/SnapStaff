@@ -1,0 +1,9 @@
+//
+//  Config-Admin.xcconfig
+//  Instagigs
+//
+//  Created by Rahiem Klugh on 10/5/15.
+//  Copyright © 2015 Elevate Management & Marketing Inc. All rights reserved.
+//
+
+BUNDLE_SUFFIX = admin

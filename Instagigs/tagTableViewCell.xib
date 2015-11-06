@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="316" id="KGk-i7-Jjw" customClass="tagTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="316"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVU-3S-hc6">
+                        <rect key="frame" x="33" y="29" width="189" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" ATMOSPHERE MODEL" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEG-rN-06C">
+                        <rect key="frame" x="230" y="29" width="81" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" ACTOR" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTn-C4-0cX">
+                        <rect key="frame" x="230" y="64" width="120" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" BARTENDER" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nid-Ff-I11">
+                        <rect key="frame" x="33" y="99" width="154" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" BOTTLE SERVICE" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3C-4T-KBU">
+                        <rect key="frame" x="33" y="64" width="192" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" BRAND AMBASSADOR" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bP-lm-orZ">
+                        <rect key="frame" x="230" y="99" width="73" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" BIKINI" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFO-9j-VHY">
+                        <rect key="frame" x="33" y="134" width="92" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" DANCER" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fz8-ZG-ZB9">
+                        <rect key="frame" x="33" y="169" width="100" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" HOSTESS" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWE-BS-Hik">
+                        <rect key="frame" x="230" y="169" width="144" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" PROMO MODEL" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o70-TW-bEI">
+                        <rect key="frame" x="33" y="204" width="155" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" PHOTOGRAPHER" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2H-5F-okn">
+                        <rect key="frame" x="230" y="204" width="88" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" SERVER" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPi-bC-qzg">
+                        <rect key="frame" x="230" y="239" width="132" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" STREET TEAM" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKl-1E-xWG">
+                        <rect key="frame" x="32" y="274" width="75" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" VALET" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZd-J2-CzQ">
+                        <rect key="frame" x="230" y="274" width="147" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" VIDEOGRAPHER" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85I-k9-e4Y">
+                        <rect key="frame" x="33" y="239" width="136" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" SOCIAL MEDIA" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="redraw" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLO-Td-BBg">
+                        <rect key="frame" x="230" y="134" width="148" height="20"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="15"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title=" HAIR / MAKE-UP" image="CHECK_BOX-1">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        </variation>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Nid-Ff-I11" firstAttribute="leading" secondItem="KVU-3S-hc6" secondAttribute="leading" id="1Dl-Q5-o3v"/>
+                    <constraint firstItem="hEG-rN-06C" firstAttribute="leading" secondItem="8bP-lm-orZ" secondAttribute="leading" id="4ZB-LQ-Z8k"/>
+                    <constraint firstItem="Nid-Ff-I11" firstAttribute="leading" secondItem="tFO-9j-VHY" secondAttribute="leading" id="53S-Pr-yZS"/>
+                    <constraint firstItem="NZd-J2-CzQ" firstAttribute="top" secondItem="JPi-bC-qzg" secondAttribute="bottom" constant="15" id="5Gg-Gb-PAC"/>
+                    <constraint firstItem="j2H-5F-okn" firstAttribute="top" secondItem="PWE-BS-Hik" secondAttribute="bottom" constant="15" id="7xw-Vq-8pd"/>
+                    <constraint firstItem="8bP-lm-orZ" firstAttribute="top" secondItem="mTn-C4-0cX" secondAttribute="bottom" constant="15" id="8kM-sc-OSp"/>
+                    <constraint firstItem="CKl-1E-xWG" firstAttribute="top" secondItem="85I-k9-e4Y" secondAttribute="bottom" constant="15" id="ArJ-KV-DBc"/>
+                    <constraint firstItem="KVU-3S-hc6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="21" id="Bm0-0L-9PS"/>
+                    <constraint firstItem="CKl-1E-xWG" firstAttribute="leading" secondItem="KVU-3S-hc6" secondAttribute="leading" constant="-1" id="CKA-WJ-WEx"/>
+                    <constraint firstItem="Z3C-4T-KBU" firstAttribute="leading" secondItem="KVU-3S-hc6" secondAttribute="leading" id="HSK-Vi-Rq5"/>
+                    <constraint firstItem="JPi-bC-qzg" firstAttribute="top" secondItem="j2H-5F-okn" secondAttribute="bottom" constant="15" id="IYY-fK-pWx"/>
+                    <constraint firstItem="wLO-Td-BBg" firstAttribute="top" secondItem="8bP-lm-orZ" secondAttribute="bottom" constant="15" id="JKO-Vo-xrs"/>
+                    <constraint firstItem="hEG-rN-06C" firstAttribute="leading" secondItem="KVU-3S-hc6" secondAttribute="trailing" constant="8" symbolic="YES" id="N5C-C1-l7I"/>
+                    <constraint firstItem="o70-TW-bEI" firstAttribute="top" secondItem="Fz8-ZG-ZB9" secondAttribute="bottom" constant="15" id="NjG-6R-Tt4"/>
+                    <constraint firstItem="hEG-rN-06C" firstAttribute="leading" secondItem="JPi-bC-qzg" secondAttribute="leading" id="Pj6-oE-0oE"/>
+                    <constraint firstItem="hEG-rN-06C" firstAttribute="baseline" secondItem="KVU-3S-hc6" secondAttribute="baseline" id="SjN-aQ-9UI"/>
+                    <constraint firstItem="hEG-rN-06C" firstAttribute="leading" secondItem="wLO-Td-BBg" secondAttribute="leading" id="Ski-7D-f4N"/>
+                    <constraint firstItem="hEG-rN-06C" firstAttribute="leading" secondItem="NZd-J2-CzQ" secondAttribute="leading" id="TOv-eo-zV0"/>
+                    <constraint firstItem="Nid-Ff-I11" firstAttribute="top" secondItem="Z3C-4T-KBU" secondAttribute="bottom" constant="15" id="UQw-fL-j3L"/>
+                    <constraint firstItem="KVU-3S-hc6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="25" id="WS4-ii-aHN"/>
+                    <constraint firstItem="85I-k9-e4Y" firstAttribute="leading" secondItem="KVU-3S-hc6" secondAttribute="leading" id="YXo-fb-MGx"/>
+                    <constraint firstItem="hEG-rN-06C" firstAttribute="leading" secondItem="j2H-5F-okn" secondAttribute="leading" id="Yym-Jd-j3q"/>
+                    <constraint firstItem="Fz8-ZG-ZB9" firstAttribute="leading" secondItem="tFO-9j-VHY" secondAttribute="leading" id="aaj-Ue-a6B"/>
+                    <constraint firstItem="85I-k9-e4Y" firstAttribute="top" secondItem="o70-TW-bEI" secondAttribute="bottom" constant="15" id="dKJ-De-6M6"/>
+                    <constraint firstItem="mTn-C4-0cX" firstAttribute="top" secondItem="hEG-rN-06C" secondAttribute="bottom" constant="15" id="hX8-I3-yYs"/>
+                    <constraint firstItem="Z3C-4T-KBU" firstAttribute="top" secondItem="KVU-3S-hc6" secondAttribute="bottom" constant="15" id="jWf-hL-Qss"/>
+                    <constraint firstItem="tFO-9j-VHY" firstAttribute="top" secondItem="Nid-Ff-I11" secondAttribute="bottom" constant="15" id="oRD-1R-Ubc"/>
+                    <constraint firstItem="Fz8-ZG-ZB9" firstAttribute="top" secondItem="tFO-9j-VHY" secondAttribute="bottom" constant="15" id="obX-0D-X14"/>
+                    <constraint firstItem="PWE-BS-Hik" firstAttribute="leading" secondItem="hEG-rN-06C" secondAttribute="leading" id="rHj-7K-QrP"/>
+                    <constraint firstItem="KVU-3S-hc6" firstAttribute="leading" secondItem="o70-TW-bEI" secondAttribute="leading" id="sRS-Gh-65l"/>
+                    <constraint firstItem="PWE-BS-Hik" firstAttribute="top" secondItem="wLO-Td-BBg" secondAttribute="bottom" constant="15" id="vzA-Kc-V3o"/>
+                    <constraint firstItem="hEG-rN-06C" firstAttribute="leading" secondItem="mTn-C4-0cX" secondAttribute="leading" id="ypD-ct-tQo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="actor_button" destination="hEG-rN-06C" id="WNK-rg-8Zk"/>
+                <outlet property="atmosButton" destination="H2p-sc-9uM" id="NlT-oo-JdS"/>
+                <outlet property="atmospher_button" destination="KVU-3S-hc6" id="i6i-pg-YKx"/>
+                <outlet property="barten_button" destination="mTn-C4-0cX" id="U6K-bm-Ugd"/>
+                <outlet property="bikini_button" destination="8bP-lm-orZ" id="smx-f1-OA3"/>
+                <outlet property="bottleButton" destination="H2p-sc-9uM" id="K95-nm-BCx"/>
+                <outlet property="bottle_button" destination="Nid-Ff-I11" id="ctz-Vv-XFm"/>
+                <outlet property="brandButton" destination="H2p-sc-9uM" id="Ts2-Mg-X7i"/>
+                <outlet property="brand_button" destination="Z3C-4T-KBU" id="oVU-4I-o1n"/>
+                <outlet property="dancer_button" destination="tFO-9j-VHY" id="6Ua-Gg-GQo"/>
+                <outlet property="hair_button" destination="wLO-Td-BBg" id="Gzj-zs-D9X"/>
+                <outlet property="hostess_button" destination="Fz8-ZG-ZB9" id="AAB-Vj-eJu"/>
+                <outlet property="photoga_button" destination="o70-TW-bEI" id="qbJ-0b-7HN"/>
+                <outlet property="promo_button" destination="PWE-BS-Hik" id="rFY-dg-UtV"/>
+                <outlet property="server_button" destination="j2H-5F-okn" id="KY1-G0-VbX"/>
+                <outlet property="social_button" destination="85I-k9-e4Y" id="Rw6-Ve-cIQ"/>
+                <outlet property="street_team_button" destination="JPi-bC-qzg" id="mWE-r8-gzD"/>
+                <outlet property="valet_button" destination="CKl-1E-xWG" id="u4D-jQ-qGD"/>
+                <outlet property="video_button" destination="NZd-J2-CzQ" id="x20-AC-fKx"/>
+            </connections>
+            <point key="canvasLocation" x="746.5" y="795"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="CHECK_BOX-1" width="20" height="20"/>
+    </resources>
+</document>

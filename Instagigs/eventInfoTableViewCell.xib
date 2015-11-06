@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+        <mutableArray key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="179" id="KGk-i7-Jjw" customClass="eventInfoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="179.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="END TIME:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEW-XB-UnY">
+                        <rect key="frame" x="73" y="72" width="85" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="84" id="2f9-Ca-Lat">
+                                <variation key="heightClass=regular-widthClass=compact" constant="87"/>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2f9-Ca-Lat"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="2f9-Ca-Lat"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="# OF TALENT:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1C-BE-XBf">
+                        <rect key="frame" x="49" y="136" width="109" height="24"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="EVENT TYPE:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mnt-Gn-8VG">
+                        <rect key="frame" x="56" y="104" width="102" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="RNP-VG-cZp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="RNP-VG-cZp"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="RNP-VG-cZp"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="dateLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODj-gH-abi">
+                        <rect key="frame" x="166" y="8" width="78" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="FVH-Hc-kLi"/>
+                            <constraint firstAttribute="width" constant="76" id="fr9-ei-fkB">
+                                <variation key="heightClass=regular-widthClass=compact" constant="126"/>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FVH-Hc-kLi"/>
+                                <exclude reference="fr9-ei-fkB"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="FVH-Hc-kLi"/>
+                                <include reference="fr9-ei-fkB"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="startLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbL-PO-PNN">
+                        <rect key="frame" x="166" y="40" width="80" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="76" id="PL9-WQ-yLJ">
+                                <variation key="heightClass=regular-widthClass=compact" constant="126"/>
+                            </constraint>
+                            <constraint firstAttribute="height" constant="20" id="cDs-c9-nN9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="PL9-WQ-yLJ"/>
+                                <exclude reference="cDs-c9-nN9"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="PL9-WQ-yLJ"/>
+                                <include reference="cDs-c9-nN9"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="endLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWc-rI-23e">
+                        <rect key="frame" x="166" y="72" width="73" height="24"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                            <rect key="frame" x="191" y="72" width="71" height="20"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="eventTypeLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08i-ZN-LXz">
+                        <rect key="frame" x="166" y="104" width="124" height="24"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                            <rect key="frame" x="191" y="99" width="119" height="20"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="START TIME:" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qc2-u8-WPj">
+                        <rect key="frame" x="59" y="40" width="99" height="24"/>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="numberLabel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDb-6N-soT">
+                        <rect key="frame" x="166" y="136" width="107" height="24"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                            <rect key="frame" x="191" y="127" width="100" height="20"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" text="DATE:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prZ-cE-Bwx">
+                        <rect key="frame" x="112" y="8" width="46" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="376-A1-X3e"/>
+                            <constraint firstAttribute="width" constant="109" id="ZYz-re-t8o">
+                                <variation key="heightClass=regular-widthClass=compact" constant="175"/>
+                            </constraint>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="376-A1-X3e"/>
+                                <exclude reference="ZYz-re-t8o"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="376-A1-X3e"/>
+                                <include reference="ZYz-re-t8o"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qc2-u8-WPj" firstAttribute="top" secondItem="prZ-cE-Bwx" secondAttribute="bottom" constant="8" symbolic="YES" id="6Z3-N5-1kR"/>
+                    <constraint firstItem="prZ-cE-Bwx" firstAttribute="trailing" secondItem="AEW-XB-UnY" secondAttribute="trailing" id="7Qk-Bg-PJB"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="D1C-BE-XBf" secondAttribute="bottom" constant="11" id="9Ej-ch-ymN"/>
+                    <constraint firstItem="08i-ZN-LXz" firstAttribute="baseline" secondItem="Mnt-Gn-8VG" secondAttribute="baseline" id="9xp-IE-6hm"/>
+                    <constraint firstItem="D1C-BE-XBf" firstAttribute="top" secondItem="Mnt-Gn-8VG" secondAttribute="bottom" constant="8" id="Csj-10-e5w"/>
+                    <constraint firstItem="08i-ZN-LXz" firstAttribute="leading" secondItem="ODj-gH-abi" secondAttribute="leading" id="F1i-YU-7K2"/>
+                    <constraint firstItem="qc2-u8-WPj" firstAttribute="baseline" secondItem="kbL-PO-PNN" secondAttribute="baseline" id="GX6-xX-CKA"/>
+                    <constraint firstItem="ODj-gH-abi" firstAttribute="leading" secondItem="jDb-6N-soT" secondAttribute="leading" id="Jtt-Ae-XMU"/>
+                    <constraint firstItem="ODj-gH-abi" firstAttribute="leading" secondItem="prZ-cE-Bwx" secondAttribute="trailing" constant="8" symbolic="YES" id="Lr4-UZ-wCO"/>
+                    <constraint firstItem="prZ-cE-Bwx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Sul-Ul-EK9"/>
+                    <constraint firstAttribute="centerX" secondItem="AEW-XB-UnY" secondAttribute="centerX" constant="44.5" id="X8Z-WW-i4h"/>
+                    <constraint firstItem="prZ-cE-Bwx" firstAttribute="trailing" secondItem="Mnt-Gn-8VG" secondAttribute="trailing" id="eWX-LJ-tP6"/>
+                    <constraint firstItem="AEW-XB-UnY" firstAttribute="top" secondItem="qc2-u8-WPj" secondAttribute="bottom" constant="8" id="gIZ-qS-XhV"/>
+                    <constraint firstItem="kbL-PO-PNN" firstAttribute="leading" secondItem="ODj-gH-abi" secondAttribute="leading" id="iKD-tR-EGz"/>
+                    <constraint firstItem="D1C-BE-XBf" firstAttribute="baseline" secondItem="jDb-6N-soT" secondAttribute="baseline" id="iLQ-pe-mME"/>
+                    <constraint firstItem="D1C-BE-XBf" firstAttribute="trailing" secondItem="prZ-cE-Bwx" secondAttribute="trailing" id="jka-sD-7if"/>
+                    <constraint firstItem="prZ-cE-Bwx" firstAttribute="baseline" secondItem="ODj-gH-abi" secondAttribute="baseline" id="kir-OZ-bHC"/>
+                    <constraint firstItem="nWc-rI-23e" firstAttribute="baseline" secondItem="AEW-XB-UnY" secondAttribute="baseline" id="m8K-Bq-7zm"/>
+                    <constraint firstItem="nWc-rI-23e" firstAttribute="leading" secondItem="ODj-gH-abi" secondAttribute="leading" id="nTU-cQ-MlZ"/>
+                    <constraint firstItem="qc2-u8-WPj" firstAttribute="trailing" secondItem="prZ-cE-Bwx" secondAttribute="trailing" id="nap-Qt-ngb"/>
+                    <constraint firstAttribute="centerX" secondItem="prZ-cE-Bwx" secondAttribute="centerX" constant="25" id="nnh-OL-7Pd"/>
+                    <constraint firstItem="Mnt-Gn-8VG" firstAttribute="top" secondItem="AEW-XB-UnY" secondAttribute="bottom" constant="8" id="xrF-T5-FRj"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="nnh-OL-7Pd"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="ODj-gH-abi" id="mdk-0l-JQp"/>
+                <outlet property="endLabel" destination="nWc-rI-23e" id="OCT-lm-Xwc"/>
+                <outlet property="eventTypeLabel" destination="08i-ZN-LXz" id="Lk7-Ge-DAe"/>
+                <outlet property="numberLabel" destination="jDb-6N-soT" id="pii-3P-5Cf"/>
+                <outlet property="numberOfTalent" destination="D1C-BE-XBf" id="D9I-bR-uj3"/>
+                <outlet property="startLabel" destination="kbL-PO-PNN" id="x2K-FS-wTj"/>
+            </connections>
+            <point key="canvasLocation" x="196" y="397"/>
+        </tableViewCell>
+    </objects>
+</document>

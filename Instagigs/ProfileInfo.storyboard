@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-ExtraBold.ttf">
+            <string>OpenSans-Extrabold</string>
+        </mutableArray>
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Profile InfoTVC-->
+        <scene sceneID="Ra7-9K-Dry">
+            <objects>
+                <tableViewController storyboardIdentifier="@ProfileInfo" id="vHS-LV-Mgj" customClass="ProfileInfoTVC" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="419" sectionHeaderHeight="22" sectionFooterHeight="22" id="rnQ-AZ-kal">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="tAm-KN-9Ch">
+                                <cells>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="infoCell1" rowHeight="209" id="Lzl-kM-rQo" customClass="ProfileInfoTVCell1">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="209"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Lzl-kM-rQo" id="4Xg-Hc-EEU">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="208.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="City, State" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Nz-qr-MYe">
+                                                    <rect key="frame" x="86" y="65" width="114" height="24"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Height" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIe-aq-bgV">
+                                                    <rect key="frame" x="86" y="100" width="114" height="24"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weight" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpN-7P-LPA">
+                                                    <rect key="frame" x="86" y="119" width="114" height="24"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="network60" translatesAutoresizingMaskIntoConstraints="NO" id="Lwx-5Q-HjA">
+                                                    <rect key="frame" x="36" y="21" width="25" height="25"/>
+                                                    <animations/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="city8" translatesAutoresizingMaskIntoConstraints="NO" id="KaZ-7n-4wK">
+                                                    <rect key="frame" x="36" y="63" width="25" height="25"/>
+                                                    <animations/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="man117" translatesAutoresizingMaskIntoConstraints="NO" id="Zrx-Ss-MyD">
+                                                    <rect key="frame" x="36" y="109" width="25" height="25"/>
+                                                    <animations/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="earth150" translatesAutoresizingMaskIntoConstraints="NO" id="pbx-4r-lYk">
+                                                    <rect key="frame" x="36" y="156" width="25" height="25"/>
+                                                    <animations/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name, Age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ko2-lG-vX9">
+                                                    <rect key="frame" x="86" y="21" width="233" height="25"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="OpenSans-Extrabold" family="Open Sans" pointSize="18"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lang" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7q-Mk-mmR">
+                                                    <rect key="frame" x="86" y="165" width="484" height="24"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ethnicity" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sD-FD-Z16">
+                                                    <rect key="frame" x="86" y="148" width="495" height="24"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="vHS-LV-Mgj" id="Gb7-sl-gqu"/>
+                            <outlet property="delegate" destination="vHS-LV-Mgj" id="w9B-fG-MSP"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="cityState" destination="5Nz-qr-MYe" id="Vpz-lg-bZQ"/>
+                        <outlet property="ethnicity" destination="1sD-FD-Z16" id="fiw-WI-SKX"/>
+                        <outlet property="height" destination="NIe-aq-bgV" id="6Va-2I-gzh"/>
+                        <outlet property="languages" destination="r7q-Mk-mmR" id="Bvb-0r-LiW"/>
+                        <outlet property="nameLabel" destination="Ko2-lG-vX9" id="zzh-h2-OoJ"/>
+                        <outlet property="weight" destination="lpN-7P-LPA" id="pw8-23-4av"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PuM-j0-ejd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="473" y="301"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="city8" width="128" height="128"/>
+        <image name="earth150" width="128" height="128"/>
+        <image name="man117" width="128" height="128"/>
+        <image name="network60" width="128" height="128"/>
+    </resources>
+</document>
